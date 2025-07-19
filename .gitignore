@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Checkpoints, weights, outputs
+checkpoints/
+weights/
+*.ckpt
+*.pth
+*.pt
+
+# Data (optional if reproducible)
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variable files
+.env
+
+# PyTorch Lightning (if used)
+lightning_logs/
